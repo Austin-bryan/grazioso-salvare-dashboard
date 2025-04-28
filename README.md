@@ -1,1 +1,15 @@
 # grazioso-salvare-dashboard
+
+## Journal Reflection
+
+### How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+When writing programs that are maintainable, readable, and adaptable, I try to keep the code organized into smaller functions, use clear variable names, and add comments where necessary. In Project One, the CRUD Python module was really helpful because it kept all the database operations in one place instead of being spread out across different files. This made it easy to update how the dashboard widgets interacted with the database during Project Two. The advantage of working this way was that if I ever needed to change how something was stored or retrieved from the database, I only had to update the CRUD module instead of hunting through the entire project. In the future, I could reuse this CRUD module for any other applications that need to connect to MongoDB, whether it's a web app, a larger dashboard, or even a mobile app.
+
+### How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+When approaching a problem as a computer scientist, I try to break it down into smaller pieces and figure out what parts I already know how to do and what parts I need to research. For Grazioso Salvare’s requirements, I first made sure I understood what kind of data they needed to display and update, and then I figured out how that data would be stored in the database. Compared to earlier assignments, this project felt more real-world because I had to think not just about making something work, but about how it would be used by actual users. In future projects, I would start by asking even more specific questions about the client's needs, like how often the database will be updated and how the users will interact with it, so I can design a database that's easier to maintain and scale.
+
+### What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+Computer scientists solve problems by building systems that organize, process, and analyze information. Their work matters because almost every modern business depends on technology to work efficiently. For a company like Grazioso Salvare, the dashboard project would help them better track and manage their rescue operations, which could save time, resources, and even lives. By creating an organized system where they can easily access and update important data, it allows them to focus more on their mission and less on trying to manage everything manually.
